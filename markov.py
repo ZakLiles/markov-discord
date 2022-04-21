@@ -82,4 +82,7 @@ async def on_message(message):
 
     print("Bot Received message")
 
-client.run(os.environ['DISCORD_TOKEN'])
+token = os.environ['DISCORD_TOKEN']
+
+print(token)
+client.run(token)
